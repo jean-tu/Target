@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS `target`;
 CREATE DATABASE `target` ;
 
 USE `target`;
@@ -9,3 +10,5 @@ CREATE TABLE `accounts` (
   `zip_code` VARCHAR(45) NULL COMMENT '',
   PRIMARY KEY (`username`)  COMMENT '');
   
+
+INSERT INTO ACCOUNTS(username,password) VALUES(	`jeantu`,`master`);

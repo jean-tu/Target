@@ -20,6 +20,12 @@
         android:layout_marginBottom="8dp"
         android:visibility="gone"/>
 
+    <ImageView
+        android:layout_width="191dp"
+        android:layout_height="253dp"
+        android:src="@drawable/target_logo"
+        android:id="@+id/imageView" />
+
     <ScrollView
         android:id="@+id/login_form"
         android:layout_width="match_parent"
@@ -60,7 +66,7 @@
                 android:imeOptions="actionUnspecified"
                 android:inputType="textPassword"
                 android:maxLines="1"
-                android:singleLine="true"/>
+                android:singleLine="true" />
 
             </android.support.design.widget.TextInputLayout>
 
@@ -73,6 +79,14 @@
                 android:text="@string/action_sign_in"
                 android:textStyle="bold"/>
 
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:id="@+id/register_button" />
+
         </LinearLayout>
     </ScrollView>
+
 </LinearLayout>

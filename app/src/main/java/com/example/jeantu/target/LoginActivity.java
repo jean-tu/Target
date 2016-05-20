@@ -11,7 +11,7 @@ import android.widget.Button;
 /**
  * Created by jeantu on 4/11/16.
  */
-public class buttonTapped extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
     private Button signinButton;
     @Override
@@ -22,11 +22,11 @@ public class buttonTapped extends AppCompatActivity {
 
         final Context context = getApplicationContext();
 
-        signinButton = (Button) findViewById(R.id.email_sign_in_button); //finding the button
+        signinButton = (Button) findViewById(R.id.email_sign_in_button); //finding the sign in button
         signinButton.setOnClickListener(new View.OnClickListener() { //user wants to return to the maps page to click on another level
             public void onClick(View v) {
-                Intent myIntent = new Intent(buttonTapped.this, MainMenu.class);
-                buttonTapped.this.startActivity(myIntent);
+                Intent myIntent = new Intent(LoginActivity.this, MainMenu.class);
+                LoginActivity.this.startActivity(myIntent);
             }
         });
     }
