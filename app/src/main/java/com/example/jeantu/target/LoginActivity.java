@@ -22,10 +22,12 @@ public class LoginActivity extends AppCompatActivity {
     private String emailAddress;
     private EditText passwordField ;//= (EditText)findViewById(R.id.password);
     private String password;
-
+    User user = User.getUser();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
@@ -49,6 +51,8 @@ public class LoginActivity extends AppCompatActivity {
                 } else if(emailAddress.matches("") && password.matches("")){
                     Toast.makeText(context, "Fill in your information to login or Sign in using Twitter!", Toast.LENGTH_SHORT).show();
                 } else {
+                    user.setUsername(emailAddress);
+                    Toast.makeText(context, "Username saved: " + emailAddress, Toast.LENGTH_SHORT).show();
                     Intent myIntent = new Intent(LoginActivity.this, MainMenu.class);
                     LoginActivity.this.startActivity(myIntent);
                 }
