@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:textStyle="italic"
     android:weightSum="1">
 
     <TextView
@@ -11,7 +12,8 @@
         android:text="Log Hours"
         android:id="@+id/loghoursTitle"
         android:layout_gravity="center_horizontal"
-        android:textSize="40dp" />
+        android:textSize="40dp"
+        android:layout_marginTop="15dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -44,8 +46,9 @@
             android:id="@+id/locations"
             android:drawSelectorOnTop="true"
             android:spinnerMode="dropdown"
-            android:entries="@strings/locations"
-            />
+            android:entries="@array/locations"
+            android:layout_marginLeft="25dp"
+            android:foregroundTint="#ee5d5d" />
 
         <TextView
             android:layout_width="wrap_content"

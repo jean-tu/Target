@@ -49,4 +49,11 @@
         android:layout_margin="20dp"
         android:textColor="#0b0000" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:id="@+id/menu_from_about_button"
+        android:layout_gravity="center_horizontal" />
+
 </LinearLayout>
