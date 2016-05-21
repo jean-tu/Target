@@ -13,4 +13,20 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing username
         completions."
     </string>
+
+    <string-array name="locations">
+        <item>1	Alexandria Target	4404 Highway 29 S</item>
+        <item>2	Andover Target	2000 Bunker Lake Blvd </item>
+        <item>3	Apple Valley South SuperTarget	15560 Pilot Knob Rd</item>
+        <item>4	Bemidji Target	2100 Paul Bunyan </item>
+        <item>5	Blaine SuperTarget	1500 109th Ave NE</item>
+        <item>6	Bloomington Target	2555 W 79th St</item>
+        <item>7	Brainerd Target	14546 Dellwood Dr</item>
+        <item>8	Brooklyn Center Target	6100 Shingle Creek Pkwy</item>
+        <item>9	Brooklyn Park Target	7535 W Broadway Ave</item>
+        <item>10	Buffalo Target	1300 State Highway 55 NE</item>
+        <item>11	Burnsville SuperTarget	810 County Road 42 W</item>
+        <item>12	Cambridge Target	215 Balsam St N</item>
+        <item>13	Champlin SuperTarget	11990 Business Park Blvd N</item>
+    </string-array>
 </resources>
