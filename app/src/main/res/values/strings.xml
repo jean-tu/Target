@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Volunteer with Target</string>
+    <string name="app_name">AIM by Target</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Username</string>

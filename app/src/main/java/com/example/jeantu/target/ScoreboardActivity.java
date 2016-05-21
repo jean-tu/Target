@@ -7,7 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 /**
  * Created by jeantu on 5/20/16.
  */
-public class RegisterActivity  extends AppCompatActivity {
+public class ScoreboardActivity  extends AppCompatActivity {
 
     //private Button signinButton;
 
@@ -15,7 +15,7 @@ public class RegisterActivity  extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.register);
+        setContentView(R.layout.scoreboard);
 
         final Context context = getApplicationContext();
 

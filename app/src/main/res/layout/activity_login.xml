@@ -21,10 +21,19 @@
         android:visibility="gone"/>
 
     <ImageView
-        android:layout_width="191dp"
-        android:layout_height="253dp"
+        android:layout_width="166dp"
+        android:layout_height="220dp"
         android:src="@drawable/target_logo"
         android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="AIM for Change"
+        android:id="@+id/aim_for_change"
+        android:textSize="25dp"
+        android:textColor="#d50913" />
 
     <ScrollView
         android:id="@+id/login_form"
