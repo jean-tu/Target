@@ -22,6 +22,6 @@ This is just a rough build of the product because we had a tight time constraint
   * Twitter 
   * Slack 
 * Location and time to check on the integrity of the volunteers 
-  * This would just be a location based API and time tracking API that would allow the user to be able to check-in once they have arrived at the volunteering location and check0out once they have finished
+  * This would just be a location based API and time tracking API that would allow the user to be able to check-in once they have arrived at the volunteering location and check out once they have finished
 
-We hope you enjoy our idea, if you have any futher questions, feel free to contact us individually through LinkedIn and you can find each individual's LinkedIn by clicking on their name.
+We hope you enjoy our idea, if you have any further questions, feel free to contact us individually through LinkedIn and you can find each individual's LinkedIn by clicking on their name.
